@@ -1,0 +1,90 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore Visual Studio temporary files, build results, and
+# include /.vs for Visual Studio temporary files
+.vs/
+.vscode/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+Generated/
+
+# Dotnet watch directory
+.dotnet_watch.json
+
+# Logs
+*.log
+*.tlog
+*.log*
+/logs/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# VS Code directories
+.history/
+.vscode/
+.vscode/settings.json
+
+# Rider IDE project files
+.idea/
+
+# Rider / ReSharper settings
+_ReSharper*/
+*.DotSettings.user
+
+# Mac OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# SQL Server local databases
+*.mdf
+*.ldf
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# IIS generated project files
+**/[Dd]ebug/[Pp]ublish/
+**/[Rr]elease/[Pp]ublish/
+_PublishedWebsites/
+
+# Publish Web Output
+publish/
+
+# Entity Framework Migrations
+Migrations/
+
+# DotNet local databases
+*.db
+
+# Runtime
+appsettings.Development.json
+appsettings.Staging.json
+appsettings.Production.json
+appsettings.local.json
+
+# Optional for web projects
+wwwroot/
